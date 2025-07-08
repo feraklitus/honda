@@ -8,7 +8,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        borderColor: '#e2e8f0',
         dream: {
           50: '#f8fafc',
           100: '#f1f5f9',
