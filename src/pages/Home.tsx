@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles, Moon, Star, Zap } from 'lucide-react';
+import { Sparkles, Moon, Star, Zap, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
