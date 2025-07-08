@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/moon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rüyalarınızı keşfedin, görselleştirin ve anlamlarını öğrenin" />
+    <meta name="theme-color" content="#a855f7" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Rüya Dünyası - Rüyalarınızı Keşfedin</title>
+    <script type="module" crossorigin src="/assets/index-CkNqagfh.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
+  </body>
+</html>
