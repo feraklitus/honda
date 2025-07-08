@@ -4,6 +4,14 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'from-purple-50',
+    'via-pink-50',
+    'to-purple-50',
+    'from-purple-100',
+    'via-pink-100',
+    'to-purple-100',
+  ],
   darkMode: 'class',
   theme: {
     extend: {
